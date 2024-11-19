@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./Images/ZomatoLogo.jpg">
+    <link
+		rel = "stylesheet"
+		href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		integrity = "sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+		crossorigin = "anonymous"
+		referrerpolicy = "no-referrer"
+		/>
+    <title>Zomato</title>
+</head>
+<body>
+    <section class="hero-section">
+        <header>
+            <nav class="navbar">
+                <a href="#" class="Get-App">Get the App</a>
+                <div class="navbar-container">
+                    <a href = "#" class = "link" >Investor Relations</a>
+                    <a href = "#" class = "link" >Add Restaurants</a>
+                    <a href = "#" class = "link" >Login</a>
+                    <a href = "#" class = "link" >Sign Up</a>
+                    <a href = "#" class = "user-icon"><i class="fa-solid fa-user"></i></a>
+                </div>
+            </nav>
+        </header>
+        <div class="hero-section-container">
+            <img src="./Images/heroSectionLogo.png" alt="zomato-logo" class="hero-logo">
+            <h1 class = "hero-section-heading">Discover the best food & drinks in Indore</h1>
+            <div class="hero-section-container-input">
+                <i class="fa-sharp fa-solid fa-location-dot" id="location-icon"></i>
+                <select class="hero-input-location">
+                    <option>Indore</option>
+					<option>Khandwa</option>
+					<option>Bhopal</option>
+					<option>Sarni</option>
+                </select>
+                <i class="fa solid fa-magnifying-glass" id = "search- icon"></i>
+                <input class = "hero-section-input-search" type = "text" placeholder = "Search for a restaurant, cuisine or a dish" />
+            </div>
+        </div>
+    </section>
+
+    <section class = "container_cards">
+		
+        <div class = "offer-cards">
+           <img src = "./Images/item1.png" alt = "card1 image"/>
+           <div class = "offer-cards-content">
+               <h2>Order Online</h2>
+               <p>Stay home and order to your doorstep</p>
+           </div>
+        </div>
+        
+        <div class = "offer-cards">
+           <img src = "./Images/item2.png" alt = "card1 image"/>
+           <div class = "offer-cards-content">	
+               <h2>Dining</h2>
+               <p>Visit amazing restaurants and cafes</p>
+           </div>
+        </div>
+        
+        <div class = "offer-cards">
+           <img src = "./Images/item3.png" alt = "card1 image"/>
+           <div class = "offer-cards-content">
+               <h2>Nightlife and clubs</h2>
+               <p>Spend leisure time enjoying the nightlife of Indore</p>
+           </div>
+        </div>
+        </div>
+   </section>
+
+   <section class = "container-collections">
+    <h1>Collections</h1>
+    <div class = "subheading-container">
+        <span>Explore curated lists of top restaurants, cafes, pubs in Indore based on trends</span>
+        <span id = "span">All collections in Indore</span>
+    </div>
+    <div class = "collections-cards-container">
+            
+        <div class = "cards card1">
+            <div class = "overlay"></div>
+            <div class = "collections-content">
+                <h4>Live Cricket Screening</h4>
+                <span>56 places</span>
+            </div>
+        </div>
+        
+        <div class = "cards card2">
+            <div class = "overlay"></div>
+            <div class = "collections-content">
+                <h4>Vijay Nagar specials</h4>
+                <span>12 places</span>
+            </div>
+        </div>
+        
+        <div class = "cards card3">
+            <div class = "overlay"></div>
+            <div class = "collections-content">
+                <h4>Newly opened Restaurants</h4>
+                <span>36 places</span>
+            </div>
+        </div>
+        
+        <div class = "cards card4">
+            <div class = "overlay"></div>
+            <div class = "collections-content">
+                <h4>Trending Pubs Near me</h4>
+                <span>16 places</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class = "get-app">
+    <div class = "semi-container">
+        <div class = "semi-container-left">
+            <img src = "./Images/mobileBanner.png" alt = "mobile image" />
+        </div>
+        <div class = "semi-container-right">
+            <h1>Get the Zomato App</h1>
+            <p>We will send you a link, open it and download the app now</p>
+            <div class = "radio-button-container">
+                <div>
+                    <input type = "radio" id = "email" name = "downloadApp" />
+                    <label for = "email" style = "font-size:14px;">Email</label>
+                </div>
+                    <div>
+                    <input type = "radio" id = "phone" name = "downloadApp" />
+                    <label for = "phone" style = "font-size:14px;">Phone</label>
+                </div>
+            </div>
+            <div class = "input-container">
+                <input type = "text" placeholder = "Email" />
+                <button>Share App Link</button>
+            </div>
+            <div class = "download-app-container">
+                <h5>Download App From</h5>
+                <div>
+                    <img src = "./Images/appleStore.png" alt = "Apple store" />
+                    <img src = "./Images/playStore.png" alt = "Play store" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class = "explore-places-container">
+    <div class = "sub-container">
+        <div>
+            <h1>Explore Options Near Me</h1>
+            <span>Explore the restaurants and cuisines across various cities under our service</span>
+        </div>
+        <div class = "drop-down-container">
+            <div>
+                <select class = "drop-down-menu">
+                    <option>Popular cuisines Near Me</option>
+                    <option>Biryani</option>
+                    <option>Soup</option>
+                    <option>Kunafa</option>
+                    <option>Rolls</option>
+                </select>
+            </div>
+            <div>
+                <select class = "drop-down-menu">
+                    <option>Popular Restaurant Near Me</option>
+                    <option>Nafees</option>
+                    <option>Absolute</option>
+                    <option>Kunafa Point</option>
+                    <option>Sam's Rolls</option>
+                </select>
+            </div>
+            <div>
+                <select class = "drop-down-menu">
+                    <option>Cities We Deliver To</option>
+                    <option>Indore</option>
+                    <option>Mumbai</option>
+                    <option>Banglore</option>
+                    <option>Delhi</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<footer class = "footer-container">
+    <div class = "footer-section1">
+        <img src = "./Images/logo.png" alt = "zomato logo" />
+        <div class = "section1-button-container">
+            <button>
+                <img src = "./Images/IndianFlag.png" alt = "Indian Flag" style = "width: 16px; height: 16px" />
+                <select style = "border: none; background: #e8e8e8; cursor: pointer">
+                    <option>India</option>
+                    <option>United States</option>
+                    <option>Australia</option>
+                    <option>New Zealand</option>
+                    <option>Spain</option>
+                    <option>England</option>
+                </select>
+            </button>
+            <button>
+                <i class = "fa fa-globe"></i>
+                <select style = "border: none; background: #e8e8e8; cursor: pointer">
+                    <option>English</option>
+                    <option>Español</option>
+                    <option>Čeština</option>
+                    <option>Slovenčina</option>
+                    <option>Polish</option>
+                    <option>Italian</option>
+                </select>
+            </button>
+        </div>
+    </div>
+    <div class = "navigation-container">
+        <div class = "link-container">
+            <h5>About Zomato</h5>
+            <div class = "link-container-anchors">
+                <a href = "#">Who We Are</a>
+                <a href = "#">Blog</a>
+                <a href = "#">Work With Us</a>
+                <a href = "#">Investor Relations</a>
+                <a href = "#">Report Fraud</a>
+                <a href = "#">Contact Us</a>
+            </div>
+        </div>
+        
+        <div class = "link-container">
+            <h5>Zomaverse</h5>
+            <div class = "link-container-anchors">
+                <a href = "#">Zomato</a>
+                <a href = "#">Blinkit</a>
+                <a href = "#">Feeding India</a>
+                <a href = "#">Hyperpure</a>
+                <a href = "#">Zomaland</a>
+            </div>
+        </div>
+        
+        <div class = "link-container">
+            <h5>For Restaurants</h5>
+            <div class = "link-container-anchors">
+                <a href = "#">Partner With Us</a>
+                <a href = "#">Apps For You</a>
+            </div>
+            <h5 id = "enterprises">For Enterprises</h5>
+            <div class = "link-container-anchors">
+                <a href = "#">Zomato For Work</a>
+            </div>
+        </div>
+        
+        <div class = "link-container">
+            <h5>Learn More</h5>
+            <div class = "link-container-anchors">
+                <a href = "#">Privacy</a>
+                <a href = "#">Security</a>
+                <a href = "#">Terms</a>
+                <a href = "#">Sitemap</a>
+            </div>
+        </div>
+        
+        <div class = "link_container">
+            <h5>Social Links</h5>
+            <div class = "social-media-icon-buttons">
+                <button><i class="fa-brands fa-linkedin-in"></i></button>
+                <button><i class = "fa-brands fa-instagram"></i></button>
+                <button><i class = "fa-brands fa-twitter"></i></button>
+                <button><i class = "fa-brands fa-facebook"></i></button>
+                <button><i class = "fa-brands fa-youtube"></i></button>
+                <div class = "social-media-logos">
+                    <img src = "./Images/appleStore.png" alt = "Apple store" />
+                    <img src = "./Images/playStore.png" alt = "Play store" id = "img2"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "disclaimer">
+    By continuing past this page, you agree to our Terms of Service, Cookie Policy,
+    Privacy Policy and Content Policies. All trademarks are properties of their respective owners.
+    2008-2024 © Zomato™ Ltd. All rights reserved.
+    </div>
+</footer>
+    
+</body>
+</html>
